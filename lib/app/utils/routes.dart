@@ -1,1 +1,3 @@
-var MyRoutes = {};
+var MyRoutes = {
+  HomeView.idScreem: () => HomeView(),
+};

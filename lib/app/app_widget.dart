@@ -4,7 +4,7 @@ import '../presenter/presenter.dart';
 
 class App extends StatelessWidget {
   @override
-  BuildContext(BuildContext context) {
+  build(BuildContext context) {
     return MaterialApp(
       home: HomeView(),
     );

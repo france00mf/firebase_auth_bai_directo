@@ -1,3 +1,4 @@
+import 'package:firebase_auth_bai_directo/presenter/views/auth/login/login_view.dart';
 import 'package:flutter/material.dart';
 
 import '../presenter/presenter.dart';
@@ -9,6 +10,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       home: HomeView(),
       routes: myRoutes,
+      initialRoute: LoginView.idScreem,
     );
   }
 }

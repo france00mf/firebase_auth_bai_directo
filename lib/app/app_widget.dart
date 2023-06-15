@@ -9,6 +9,7 @@ class App extends StatelessWidget {
   build(BuildContext context) {
     return MaterialApp(
       home: HomeView(),
+      theme: myThemes,
       routes: myRoutes,
       initialRoute: LoginView.idScreem,
     );

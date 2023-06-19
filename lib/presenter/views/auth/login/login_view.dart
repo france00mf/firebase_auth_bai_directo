@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class LoginView extends StatefulWidget {
-  static const idScreem = "login_view";
+  // static const idScreem = "login_view";
   final Function()? onTap;
   LoginView({super.key, required this.onTap})
 
